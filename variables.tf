@@ -7,6 +7,7 @@ variable "label_prefix" {
 variable "region" {
   type    = string
   default = "westus3"
+  description = "The Azure region where the Web Server is deployed"
 }
 
 variable "admin_username" {
